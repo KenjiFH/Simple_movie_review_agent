@@ -6,7 +6,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough, RunnableParallel
 
 # --- Configuration ---
-# Must match the path used in your new ingest.py
+# Must match the path used in  ingest.py
 DB_PATH = "./chroma_sentiment_db" 
 EMBEDDING_MODEL = "mxbai-embed-large"
 CHAT_MODEL = "llama3"
